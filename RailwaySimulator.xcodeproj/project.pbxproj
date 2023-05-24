@@ -11,7 +11,85 @@
 		FA5E0F7E2A1E3452008877CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F7D2A1E3452008877CA /* ContentView.swift */; };
 		FA5E0F802A1E3454008877CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5E0F7F2A1E3454008877CA /* Assets.xcassets */; };
 		FA5E0F832A1E3454008877CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5E0F822A1E3454008877CA /* Preview Assets.xcassets */; };
+		FA5E0F8E2A1E34A5008877CA /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F8D2A1E34A5008877CA /* Train.swift */; };
+		FA5E0F902A1E34AD008877CA /* Locomotive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F8F2A1E34AD008877CA /* Locomotive.swift */; };
+		FA5E0F922A1E34B3008877CA /* Carriage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F912A1E34B3008877CA /* Carriage.swift */; };
+		FA5E0F952A1E359D008877CA /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F942A1E359D008877CA /* Vehicle.swift */; };
+		FA5E0F9F2A1E5AA5008877CA /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F9E2A1E5AA5008877CA /* Typealias.swift */; };
+		FA5E0FA22A1E5ABB008877CA /* TrainManufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA12A1E5ABB008877CA /* TrainManufacturer.swift */; };
+		FA5E0FA42A1E5AD4008877CA /* LocomotiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA32A1E5AD4008877CA /* LocomotiveType.swift */; };
+		FA5E0FA62A1E5AF0008877CA /* CarriageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA52A1E5AF0008877CA /* CarriageType.swift */; };
+		FA5E0FA82A1E5B0D008877CA /* VehicleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA72A1E5B0D008877CA /* VehicleInfo.swift */; };
+		FA5E0FAA2A1E5B1C008877CA /* VehicleSerialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA92A1E5B1C008877CA /* VehicleSerialData.swift */; };
+		FA5E0FAC2A1E5B34008877CA /* VehicleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FAB2A1E5B34008877CA /* VehicleConfiguration.swift */; };
+		FA5E0FAE2A1E5B49008877CA /* LocomotiveInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FAD2A1E5B49008877CA /* LocomotiveInfo.swift */; };
+		FA5E0FB02A1E5B51008877CA /* LocomotiveSerialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FAF2A1E5B51008877CA /* LocomotiveSerialData.swift */; };
+		FA5E0FB22A1E5B5A008877CA /* LocomotiveConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FB12A1E5B5A008877CA /* LocomotiveConfiguration.swift */; };
+		FA5E0FB42A1E5B80008877CA /* CarriageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FB32A1E5B80008877CA /* CarriageInfo.swift */; };
+		FA5E0FB62A1E5B89008877CA /* CarriageSerialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FB52A1E5B89008877CA /* CarriageSerialData.swift */; };
+		FA5E0FB82A1E5B91008877CA /* CarriageConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FB72A1E5B91008877CA /* CarriageConfiguration.swift */; };
+		FA5E0FBD2A1E6506008877CA /* CommonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FBC2A1E6506008877CA /* CommonInfo.swift */; };
+		FA5E0FBF2A1E6645008877CA /* TrainBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FBE2A1E6645008877CA /* TrainBasicInfo.swift */; };
+		FA5E0FC32A1E7685008877CA /* TrainCurrentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FC22A1E7685008877CA /* TrainCurrentData.swift */; };
+		FA5E0FDE2A1E8BF5008877CA /* RailwaySimulatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FDD2A1E8BF5008877CA /* RailwaySimulatorTest.swift */; };
+		FA5E0FE42A1E8C11008877CA /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F8D2A1E34A5008877CA /* Train.swift */; };
+		FA5E0FE52A1E8C1D008877CA /* TrainCurrentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FC22A1E7685008877CA /* TrainCurrentData.swift */; };
+		FA5E0FE62A1E8C20008877CA /* CommonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FBC2A1E6506008877CA /* CommonInfo.swift */; };
+		FA5E0FE72A1E8C64008877CA /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F9E2A1E5AA5008877CA /* Typealias.swift */; };
+		FA5E0FE82A1E8C64008877CA /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F9E2A1E5AA5008877CA /* Typealias.swift */; };
+		FA5E0FE92A1E8C66008877CA /* TrainManufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA12A1E5ABB008877CA /* TrainManufacturer.swift */; };
+		FA5E0FEA2A1E8C66008877CA /* TrainManufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA12A1E5ABB008877CA /* TrainManufacturer.swift */; };
+		FA5E0FEB2A1E8C69008877CA /* LocomotiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA32A1E5AD4008877CA /* LocomotiveType.swift */; };
+		FA5E0FED2A1E8C6A008877CA /* LocomotiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA32A1E5AD4008877CA /* LocomotiveType.swift */; };
+		FA5E0FEE2A1E8C6C008877CA /* CarriageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA52A1E5AF0008877CA /* CarriageType.swift */; };
+		FA5E0FEF2A1E8C6C008877CA /* CarriageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA52A1E5AF0008877CA /* CarriageType.swift */; };
+		FA5E0FF02A1E8C6E008877CA /* CommonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FBC2A1E6506008877CA /* CommonInfo.swift */; };
+		FA5E0FF12A1E8C6F008877CA /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F942A1E359D008877CA /* Vehicle.swift */; };
+		FA5E0FF22A1E8C70008877CA /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F942A1E359D008877CA /* Vehicle.swift */; };
+		FA5E0FF32A1E8C72008877CA /* VehicleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA72A1E5B0D008877CA /* VehicleInfo.swift */; };
+		FA5E0FF42A1E8C72008877CA /* VehicleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA72A1E5B0D008877CA /* VehicleInfo.swift */; };
+		FA5E0FF52A1E8C74008877CA /* VehicleSerialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA92A1E5B1C008877CA /* VehicleSerialData.swift */; };
+		FA5E0FF62A1E8C74008877CA /* VehicleSerialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FA92A1E5B1C008877CA /* VehicleSerialData.swift */; };
+		FA5E0FF72A1E8C76008877CA /* VehicleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FAB2A1E5B34008877CA /* VehicleConfiguration.swift */; };
+		FA5E0FF82A1E8C77008877CA /* VehicleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FAB2A1E5B34008877CA /* VehicleConfiguration.swift */; };
+		FA5E0FF92A1E8C79008877CA /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F8D2A1E34A5008877CA /* Train.swift */; };
+		FA5E0FFA2A1E8C7B008877CA /* TrainCurrentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FC22A1E7685008877CA /* TrainCurrentData.swift */; };
+		FA5E0FFB2A1E8C7D008877CA /* TrainBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FBE2A1E6645008877CA /* TrainBasicInfo.swift */; };
+		FA5E0FFC2A1E8C7D008877CA /* TrainBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FBE2A1E6645008877CA /* TrainBasicInfo.swift */; };
+		FA5E0FFD2A1E8C80008877CA /* LocomotiveInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FAD2A1E5B49008877CA /* LocomotiveInfo.swift */; };
+		FA5E0FFE2A1E8C80008877CA /* LocomotiveInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FAD2A1E5B49008877CA /* LocomotiveInfo.swift */; };
+		FA5E0FFF2A1E8C82008877CA /* LocomotiveSerialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FAF2A1E5B51008877CA /* LocomotiveSerialData.swift */; };
+		FA5E10002A1E8C83008877CA /* LocomotiveSerialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FAF2A1E5B51008877CA /* LocomotiveSerialData.swift */; };
+		FA5E10012A1E8C84008877CA /* LocomotiveConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FB12A1E5B5A008877CA /* LocomotiveConfiguration.swift */; };
+		FA5E10022A1E8C85008877CA /* LocomotiveConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FB12A1E5B5A008877CA /* LocomotiveConfiguration.swift */; };
+		FA5E10032A1E8C86008877CA /* Locomotive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F8F2A1E34AD008877CA /* Locomotive.swift */; };
+		FA5E10042A1E8C86008877CA /* Locomotive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F8F2A1E34AD008877CA /* Locomotive.swift */; };
+		FA5E10062A1E8C8A008877CA /* CarriageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FB32A1E5B80008877CA /* CarriageInfo.swift */; };
+		FA5E10072A1E8C8B008877CA /* CarriageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FB32A1E5B80008877CA /* CarriageInfo.swift */; };
+		FA5E10082A1E8C8C008877CA /* CarriageSerialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FB52A1E5B89008877CA /* CarriageSerialData.swift */; };
+		FA5E10092A1E8C8D008877CA /* CarriageSerialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FB52A1E5B89008877CA /* CarriageSerialData.swift */; };
+		FA5E100A2A1E8C8E008877CA /* CarriageConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FB72A1E5B91008877CA /* CarriageConfiguration.swift */; };
+		FA5E100B2A1E8C8F008877CA /* CarriageConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0FB72A1E5B91008877CA /* CarriageConfiguration.swift */; };
+		FA5E100C2A1E8C91008877CA /* Carriage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F912A1E34B3008877CA /* Carriage.swift */; };
+		FA5E100D2A1E8C91008877CA /* Carriage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E0F912A1E34B3008877CA /* Carriage.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA5E0FD12A1E8B16008877CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5E0F702A1E3452008877CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5E0F772A1E3452008877CA;
+			remoteInfo = RailwaySimulator;
+		};
+		FA5E0FDF2A1E8BF5008877CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5E0F702A1E3452008877CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5E0F772A1E3452008877CA;
+			remoteInfo = RailwaySimulator;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FA5E0F782A1E3452008877CA /* RailwaySimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RailwaySimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +97,47 @@
 		FA5E0F7D2A1E3452008877CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA5E0F7F2A1E3454008877CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5E0F822A1E3454008877CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA5E0F8D2A1E34A5008877CA /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		FA5E0F8F2A1E34AD008877CA /* Locomotive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locomotive.swift; sourceTree = "<group>"; };
+		FA5E0F912A1E34B3008877CA /* Carriage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carriage.swift; sourceTree = "<group>"; };
+		FA5E0F942A1E359D008877CA /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		FA5E0F9E2A1E5AA5008877CA /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		FA5E0FA12A1E5ABB008877CA /* TrainManufacturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainManufacturer.swift; sourceTree = "<group>"; };
+		FA5E0FA32A1E5AD4008877CA /* LocomotiveType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocomotiveType.swift; sourceTree = "<group>"; };
+		FA5E0FA52A1E5AF0008877CA /* CarriageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarriageType.swift; sourceTree = "<group>"; };
+		FA5E0FA72A1E5B0D008877CA /* VehicleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInfo.swift; sourceTree = "<group>"; };
+		FA5E0FA92A1E5B1C008877CA /* VehicleSerialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleSerialData.swift; sourceTree = "<group>"; };
+		FA5E0FAB2A1E5B34008877CA /* VehicleConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleConfiguration.swift; sourceTree = "<group>"; };
+		FA5E0FAD2A1E5B49008877CA /* LocomotiveInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocomotiveInfo.swift; sourceTree = "<group>"; };
+		FA5E0FAF2A1E5B51008877CA /* LocomotiveSerialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocomotiveSerialData.swift; sourceTree = "<group>"; };
+		FA5E0FB12A1E5B5A008877CA /* LocomotiveConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocomotiveConfiguration.swift; sourceTree = "<group>"; };
+		FA5E0FB32A1E5B80008877CA /* CarriageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarriageInfo.swift; sourceTree = "<group>"; };
+		FA5E0FB52A1E5B89008877CA /* CarriageSerialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarriageSerialData.swift; sourceTree = "<group>"; };
+		FA5E0FB72A1E5B91008877CA /* CarriageConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarriageConfiguration.swift; sourceTree = "<group>"; };
+		FA5E0FBC2A1E6506008877CA /* CommonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonInfo.swift; sourceTree = "<group>"; };
+		FA5E0FBE2A1E6645008877CA /* TrainBasicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainBasicInfo.swift; sourceTree = "<group>"; };
+		FA5E0FC22A1E7685008877CA /* TrainCurrentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCurrentData.swift; sourceTree = "<group>"; };
+		FA5E0FCD2A1E8B16008877CA /* RailwaySimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RailwaySimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5E0FDB2A1E8BF5008877CA /* RailwaySimulatorTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RailwaySimulatorTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5E0FDD2A1E8BF5008877CA /* RailwaySimulatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailwaySimulatorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FA5E0F752A1E3452008877CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5E0FCA2A1E8B16008877CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5E0FD82A1E8BF5008877CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				FA5E0F7A2A1E3452008877CA /* RailwaySimulator */,
+				FA5E0FDC2A1E8BF5008877CA /* RailwaySimulatorTest */,
 				FA5E0F792A1E3452008877CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				FA5E0F782A1E3452008877CA /* RailwaySimulator.app */,
+				FA5E0FCD2A1E8B16008877CA /* RailwaySimulatorTests.xctest */,
+				FA5E0FDB2A1E8BF5008877CA /* RailwaySimulatorTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +169,7 @@
 		FA5E0F7A2A1E3452008877CA /* RailwaySimulator */ = {
 			isa = PBXGroup;
 			children = (
+				FA5E0F892A1E345D008877CA /* Model */,
 				FA5E0F7B2A1E3452008877CA /* RailwaySimulatorApp.swift */,
 				FA5E0F7D2A1E3452008877CA /* ContentView.swift */,
 				FA5E0F7F2A1E3454008877CA /* Assets.xcassets */,
@@ -65,6 +184,105 @@
 				FA5E0F822A1E3454008877CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA5E0F892A1E345D008877CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E0F9D2A1E5A93008877CA /* Utils */,
+				FA5E0FA02A1E5AAF008877CA /* Info */,
+				FA5E0F932A1E358F008877CA /* Vehicle */,
+				FA5E0F8A2A1E3467008877CA /* TrainModel */,
+				FA5E0F8B2A1E3489008877CA /* LocomotiveModel */,
+				FA5E0F8C2A1E3495008877CA /* CarriageModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA5E0F8A2A1E3467008877CA /* TrainModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E0F8D2A1E34A5008877CA /* Train.swift */,
+				FA5E0FC22A1E7685008877CA /* TrainCurrentData.swift */,
+				FA5E0FBE2A1E6645008877CA /* TrainBasicInfo.swift */,
+			);
+			path = TrainModel;
+			sourceTree = "<group>";
+		};
+		FA5E0F8B2A1E3489008877CA /* LocomotiveModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E0FBA2A1E5BD5008877CA /* LocomotiveUtils */,
+				FA5E0F8F2A1E34AD008877CA /* Locomotive.swift */,
+			);
+			path = LocomotiveModel;
+			sourceTree = "<group>";
+		};
+		FA5E0F8C2A1E3495008877CA /* CarriageModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E0FBB2A1E5BE1008877CA /* CarriageUtils */,
+				FA5E0F912A1E34B3008877CA /* Carriage.swift */,
+			);
+			path = CarriageModel;
+			sourceTree = "<group>";
+		};
+		FA5E0F932A1E358F008877CA /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E0F942A1E359D008877CA /* Vehicle.swift */,
+				FA5E0FA72A1E5B0D008877CA /* VehicleInfo.swift */,
+				FA5E0FA92A1E5B1C008877CA /* VehicleSerialData.swift */,
+				FA5E0FAB2A1E5B34008877CA /* VehicleConfiguration.swift */,
+			);
+			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		FA5E0F9D2A1E5A93008877CA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E0F9E2A1E5AA5008877CA /* Typealias.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FA5E0FA02A1E5AAF008877CA /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E0FA12A1E5ABB008877CA /* TrainManufacturer.swift */,
+				FA5E0FA32A1E5AD4008877CA /* LocomotiveType.swift */,
+				FA5E0FA52A1E5AF0008877CA /* CarriageType.swift */,
+				FA5E0FBC2A1E6506008877CA /* CommonInfo.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		FA5E0FBA2A1E5BD5008877CA /* LocomotiveUtils */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E0FAD2A1E5B49008877CA /* LocomotiveInfo.swift */,
+				FA5E0FAF2A1E5B51008877CA /* LocomotiveSerialData.swift */,
+				FA5E0FB12A1E5B5A008877CA /* LocomotiveConfiguration.swift */,
+			);
+			path = LocomotiveUtils;
+			sourceTree = "<group>";
+		};
+		FA5E0FBB2A1E5BE1008877CA /* CarriageUtils */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E0FB32A1E5B80008877CA /* CarriageInfo.swift */,
+				FA5E0FB52A1E5B89008877CA /* CarriageSerialData.swift */,
+				FA5E0FB72A1E5B91008877CA /* CarriageConfiguration.swift */,
+			);
+			path = CarriageUtils;
+			sourceTree = "<group>";
+		};
+		FA5E0FDC2A1E8BF5008877CA /* RailwaySimulatorTest */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E0FDD2A1E8BF5008877CA /* RailwaySimulatorTest.swift */,
+			);
+			path = RailwaySimulatorTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +305,42 @@
 			productReference = FA5E0F782A1E3452008877CA /* RailwaySimulator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FA5E0FCC2A1E8B16008877CA /* RailwaySimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5E0FD32A1E8B16008877CA /* Build configuration list for PBXNativeTarget "RailwaySimulatorTests" */;
+			buildPhases = (
+				FA5E0FC92A1E8B16008877CA /* Sources */,
+				FA5E0FCA2A1E8B16008877CA /* Frameworks */,
+				FA5E0FCB2A1E8B16008877CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5E0FD22A1E8B16008877CA /* PBXTargetDependency */,
+			);
+			name = RailwaySimulatorTests;
+			productName = RailwaySimulatorTests;
+			productReference = FA5E0FCD2A1E8B16008877CA /* RailwaySimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA5E0FDA2A1E8BF5008877CA /* RailwaySimulatorTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5E0FE12A1E8BF5008877CA /* Build configuration list for PBXNativeTarget "RailwaySimulatorTest" */;
+			buildPhases = (
+				FA5E0FD72A1E8BF5008877CA /* Sources */,
+				FA5E0FD82A1E8BF5008877CA /* Frameworks */,
+				FA5E0FD92A1E8BF5008877CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5E0FE02A1E8BF5008877CA /* PBXTargetDependency */,
+			);
+			name = RailwaySimulatorTest;
+			productName = RailwaySimulatorTest;
+			productReference = FA5E0FDB2A1E8BF5008877CA /* RailwaySimulatorTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +353,14 @@
 				TargetAttributes = {
 					FA5E0F772A1E3452008877CA = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					FA5E0FCC2A1E8B16008877CA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FA5E0F772A1E3452008877CA;
+					};
+					FA5E0FDA2A1E8BF5008877CA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FA5E0F772A1E3452008877CA;
 					};
 				};
 			};
@@ -116,6 +378,8 @@
 			projectRoot = "";
 			targets = (
 				FA5E0F772A1E3452008877CA /* RailwaySimulator */,
+				FA5E0FCC2A1E8B16008877CA /* RailwaySimulatorTests */,
+				FA5E0FDA2A1E8BF5008877CA /* RailwaySimulatorTest */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +394,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA5E0FCB2A1E8B16008877CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5E0FD92A1E8BF5008877CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +415,100 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5E0F922A1E34B3008877CA /* Carriage.swift in Sources */,
 				FA5E0F7E2A1E3452008877CA /* ContentView.swift in Sources */,
+				FA5E0FB02A1E5B51008877CA /* LocomotiveSerialData.swift in Sources */,
+				FA5E0FA62A1E5AF0008877CA /* CarriageType.swift in Sources */,
+				FA5E0FAA2A1E5B1C008877CA /* VehicleSerialData.swift in Sources */,
+				FA5E0F9F2A1E5AA5008877CA /* Typealias.swift in Sources */,
 				FA5E0F7C2A1E3452008877CA /* RailwaySimulatorApp.swift in Sources */,
+				FA5E0F902A1E34AD008877CA /* Locomotive.swift in Sources */,
+				FA5E0FB82A1E5B91008877CA /* CarriageConfiguration.swift in Sources */,
+				FA5E0FB62A1E5B89008877CA /* CarriageSerialData.swift in Sources */,
+				FA5E0FBF2A1E6645008877CA /* TrainBasicInfo.swift in Sources */,
+				FA5E0F952A1E359D008877CA /* Vehicle.swift in Sources */,
+				FA5E0FBD2A1E6506008877CA /* CommonInfo.swift in Sources */,
+				FA5E0FA82A1E5B0D008877CA /* VehicleInfo.swift in Sources */,
+				FA5E0F8E2A1E34A5008877CA /* Train.swift in Sources */,
+				FA5E0FB22A1E5B5A008877CA /* LocomotiveConfiguration.swift in Sources */,
+				FA5E0FC32A1E7685008877CA /* TrainCurrentData.swift in Sources */,
+				FA5E0FB42A1E5B80008877CA /* CarriageInfo.swift in Sources */,
+				FA5E0FAE2A1E5B49008877CA /* LocomotiveInfo.swift in Sources */,
+				FA5E0FAC2A1E5B34008877CA /* VehicleConfiguration.swift in Sources */,
+				FA5E0FA42A1E5AD4008877CA /* LocomotiveType.swift in Sources */,
+				FA5E0FA22A1E5ABB008877CA /* TrainManufacturer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5E0FC92A1E8B16008877CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5E0FF12A1E8C6F008877CA /* Vehicle.swift in Sources */,
+				FA5E10082A1E8C8C008877CA /* CarriageSerialData.swift in Sources */,
+				FA5E0FF72A1E8C76008877CA /* VehicleConfiguration.swift in Sources */,
+				FA5E0FE82A1E8C64008877CA /* Typealias.swift in Sources */,
+				FA5E10062A1E8C8A008877CA /* CarriageInfo.swift in Sources */,
+				FA5E0FEF2A1E8C6C008877CA /* CarriageType.swift in Sources */,
+				FA5E0FF32A1E8C72008877CA /* VehicleInfo.swift in Sources */,
+				FA5E0FFD2A1E8C80008877CA /* LocomotiveInfo.swift in Sources */,
+				FA5E0FF52A1E8C74008877CA /* VehicleSerialData.swift in Sources */,
+				FA5E0FEB2A1E8C69008877CA /* LocomotiveType.swift in Sources */,
+				FA5E0FFB2A1E8C7D008877CA /* TrainBasicInfo.swift in Sources */,
+				FA5E0FE92A1E8C66008877CA /* TrainManufacturer.swift in Sources */,
+				FA5E10012A1E8C84008877CA /* LocomotiveConfiguration.swift in Sources */,
+				FA5E0FFF2A1E8C82008877CA /* LocomotiveSerialData.swift in Sources */,
+				FA5E10032A1E8C86008877CA /* Locomotive.swift in Sources */,
+				FA5E100C2A1E8C91008877CA /* Carriage.swift in Sources */,
+				FA5E0FF92A1E8C79008877CA /* Train.swift in Sources */,
+				FA5E100A2A1E8C8E008877CA /* CarriageConfiguration.swift in Sources */,
+				FA5E0FFA2A1E8C7B008877CA /* TrainCurrentData.swift in Sources */,
+				FA5E0FF02A1E8C6E008877CA /* CommonInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5E0FD72A1E8BF5008877CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5E100B2A1E8C8F008877CA /* CarriageConfiguration.swift in Sources */,
+				FA5E0FF22A1E8C70008877CA /* Vehicle.swift in Sources */,
+				FA5E10022A1E8C85008877CA /* LocomotiveConfiguration.swift in Sources */,
+				FA5E0FF82A1E8C77008877CA /* VehicleConfiguration.swift in Sources */,
+				FA5E0FE62A1E8C20008877CA /* CommonInfo.swift in Sources */,
+				FA5E0FE52A1E8C1D008877CA /* TrainCurrentData.swift in Sources */,
+				FA5E100D2A1E8C91008877CA /* Carriage.swift in Sources */,
+				FA5E0FFE2A1E8C80008877CA /* LocomotiveInfo.swift in Sources */,
+				FA5E0FFC2A1E8C7D008877CA /* TrainBasicInfo.swift in Sources */,
+				FA5E0FE42A1E8C11008877CA /* Train.swift in Sources */,
+				FA5E10002A1E8C83008877CA /* LocomotiveSerialData.swift in Sources */,
+				FA5E0FED2A1E8C6A008877CA /* LocomotiveType.swift in Sources */,
+				FA5E0FEA2A1E8C66008877CA /* TrainManufacturer.swift in Sources */,
+				FA5E10072A1E8C8B008877CA /* CarriageInfo.swift in Sources */,
+				FA5E0FF42A1E8C72008877CA /* VehicleInfo.swift in Sources */,
+				FA5E10092A1E8C8D008877CA /* CarriageSerialData.swift in Sources */,
+				FA5E10042A1E8C86008877CA /* Locomotive.swift in Sources */,
+				FA5E0FEE2A1E8C6C008877CA /* CarriageType.swift in Sources */,
+				FA5E0FDE2A1E8BF5008877CA /* RailwaySimulatorTest.swift in Sources */,
+				FA5E0FE72A1E8C64008877CA /* Typealias.swift in Sources */,
+				FA5E0FF62A1E8C74008877CA /* VehicleSerialData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5E0FD22A1E8B16008877CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5E0F772A1E3452008877CA /* RailwaySimulator */;
+			targetProxy = FA5E0FD12A1E8B16008877CA /* PBXContainerItemProxy */;
+		};
+		FA5E0FE02A1E8BF5008877CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5E0F772A1E3452008877CA /* RailwaySimulator */;
+			targetProxy = FA5E0FDF2A1E8BF5008877CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FA5E0F842A1E3454008877CA /* Debug */ = {
@@ -317,6 +683,78 @@
 			};
 			name = Release;
 		};
+		FA5E0FD42A1E8B16008877CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G49AR2C5MH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexkovalenko.RailwaySimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RailwaySimulator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RailwaySimulator";
+			};
+			name = Debug;
+		};
+		FA5E0FD52A1E8B16008877CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G49AR2C5MH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexkovalenko.RailwaySimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RailwaySimulator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RailwaySimulator";
+			};
+			name = Release;
+		};
+		FA5E0FE22A1E8BF5008877CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G49AR2C5MH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexkovalenko.RailwaySimulatorTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RailwaySimulator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RailwaySimulator";
+			};
+			name = Debug;
+		};
+		FA5E0FE32A1E8BF5008877CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G49AR2C5MH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexkovalenko.RailwaySimulatorTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RailwaySimulator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RailwaySimulator";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +772,24 @@
 			buildConfigurations = (
 				FA5E0F872A1E3454008877CA /* Debug */,
 				FA5E0F882A1E3454008877CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5E0FD32A1E8B16008877CA /* Build configuration list for PBXNativeTarget "RailwaySimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5E0FD42A1E8B16008877CA /* Debug */,
+				FA5E0FD52A1E8B16008877CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5E0FE12A1E8BF5008877CA /* Build configuration list for PBXNativeTarget "RailwaySimulatorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5E0FE22A1E8BF5008877CA /* Debug */,
+				FA5E0FE32A1E8BF5008877CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

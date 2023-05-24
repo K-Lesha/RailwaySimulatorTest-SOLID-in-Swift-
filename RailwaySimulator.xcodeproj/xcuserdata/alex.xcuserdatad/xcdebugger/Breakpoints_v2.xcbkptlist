@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5589E071-FA4C-4D23-B16B-19575A4F3444"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B0632D1-AD8A-4FD5-8EC4-0985B7B7DE35"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RailwaySimulator/Model/TrainModel/Train.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "components"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3B0632D1-AD8A-4FD5-8EC4-0985B7B7DE35 - 581226b50dad0210"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulator.Train.components.didset : Swift.Array&lt;RailwaySimulator.Vehicle&gt;"
+                  moduleName = "RailwaySimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/Train.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "3B0632D1-AD8A-4FD5-8EC4-0985B7B7DE35 - c73103fdd8cd452c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulatorTest.Train.components.didset : Swift.Array&lt;RailwaySimulatorTest.Vehicle&gt;"
+                  moduleName = "RailwaySimulatorTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/Train.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81C2CE31-C723-430C-8C5C-74AA8F187A46"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RailwaySimulator/Model/TrainModel/Train.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "addTrainComponent(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "81C2CE31-C723-430C-8C5C-74AA8F187A46 - 686a92df4375e306"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulator.Train.addTrainComponent(inout RailwaySimulator.Vehicle) -&gt; ()"
+                  moduleName = "RailwaySimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/Train.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "81C2CE31-C723-430C-8C5C-74AA8F187A46 - 9564fe929b771f5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulatorTest.Train.addTrainComponent(inout RailwaySimulatorTest.Vehicle) -&gt; ()"
+                  moduleName = "RailwaySimulatorTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/Train.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "81C2CE31-C723-430C-8C5C-74AA8F187A46 - 686a92df4375e363"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulator.Train.addTrainComponent(inout RailwaySimulator.Vehicle) -&gt; ()"
+                  moduleName = "RailwaySimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/Train.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "81C2CE31-C723-430C-8C5C-74AA8F187A46 - 9564fe929b771f3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulatorTest.Train.addTrainComponent(inout RailwaySimulatorTest.Vehicle) -&gt; ()"
+                  moduleName = "RailwaySimulatorTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/Train.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F811185-BC63-4E49-A296-5CEE167A29EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RailwaySimulator/Model/TrainModel/TrainBasicInfo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "updateInfo(components:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5F811185-BC63-4E49-A296-5CEE167A29EE - a1652540bfcd377c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulator.TrainBasicInfo.updateInfo(components: Swift.Array&lt;RailwaySimulator.Vehicle&gt;) -&gt; ()"
+                  moduleName = "RailwaySimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/TrainBasicInfo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "5F811185-BC63-4E49-A296-5CEE167A29EE - 9a2fa4afc596a1ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RailwaySimulator.Vehicle) -&gt; Swift.Optional&lt;RailwaySimulator.Locomotive&gt; in RailwaySimulator.TrainBasicInfo.updateInfo(components: Swift.Array&lt;RailwaySimulator.Vehicle&gt;) -&gt; ()"
+                  moduleName = "RailwaySimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/TrainBasicInfo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "5F811185-BC63-4E49-A296-5CEE167A29EE - c7baf6c3d59580e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulatorTest.TrainBasicInfo.updateInfo(components: Swift.Array&lt;RailwaySimulatorTest.Vehicle&gt;) -&gt; ()"
+                  moduleName = "RailwaySimulatorTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/TrainBasicInfo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "5F811185-BC63-4E49-A296-5CEE167A29EE - 1944932acfe79fce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RailwaySimulatorTest.Vehicle) -&gt; Swift.Optional&lt;RailwaySimulatorTest.Locomotive&gt; in RailwaySimulatorTest.TrainBasicInfo.updateInfo(components: Swift.Array&lt;RailwaySimulatorTest.Vehicle&gt;) -&gt; ()"
+                  moduleName = "RailwaySimulatorTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/TrainBasicInfo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "5F811185-BC63-4E49-A296-5CEE167A29EE - a1652540bfcd377c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulator.TrainBasicInfo.updateInfo(components: Swift.Array&lt;RailwaySimulator.Vehicle&gt;) -&gt; ()"
+                  moduleName = "RailwaySimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/TrainBasicInfo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "5F811185-BC63-4E49-A296-5CEE167A29EE - c7baf6c3d59580e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulatorTest.TrainBasicInfo.updateInfo(components: Swift.Array&lt;RailwaySimulatorTest.Vehicle&gt;) -&gt; ()"
+                  moduleName = "RailwaySimulatorTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/TrainBasicInfo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF79194F-A19C-444C-AD3B-B1EB1FBE5582"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RailwaySimulatorTest/RailwaySimulatorTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "testAddingTrainComponent()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB0BF183-2B28-4308-8904-CDF77DE586F6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RailwaySimulatorTest/RailwaySimulatorTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "testDeletingTrainComponent()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1F5E8EC-6C76-4F16-988B-DF3453530B3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RailwaySimulator/Model/TrainModel/Train.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
+            landmarkName = "components"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E1F5E8EC-6C76-4F16-988B-DF3453530B3A - 581226b50dad0210"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulator.Train.components.didset : Swift.Array&lt;RailwaySimulator.Vehicle&gt;"
+                  moduleName = "RailwaySimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/Train.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "E1F5E8EC-6C76-4F16-988B-DF3453530B3A - c73103fdd8cd452c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulatorTest.Train.components.didset : Swift.Array&lt;RailwaySimulatorTest.Vehicle&gt;"
+                  moduleName = "RailwaySimulatorTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/Train.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5449A3FC-B998-413A-BCF3-12D5AB28AA21"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RailwaySimulator/Model/TrainModel/Train.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "deleteTrainComponent(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5449A3FC-B998-413A-BCF3-12D5AB28AA21 - a80ad0f43559031f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulator.Train.deleteTrainComponent(Swift.String) -&gt; ()"
+                  moduleName = "RailwaySimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/Train.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "1304">
+               </Location>
+               <Location
+                  uuid = "5449A3FC-B998-413A-BCF3-12D5AB28AA21 - 3f5f9fc8667ca06f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RailwaySimulatorTest.Train.deleteTrainComponent(Swift.String) -&gt; ()"
+                  moduleName = "RailwaySimulatorTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/RailwaySimulator/RailwaySimulator/Model/TrainModel/Train.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "1304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
