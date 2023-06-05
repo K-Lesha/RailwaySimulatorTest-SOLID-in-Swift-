@@ -9,7 +9,9 @@ Programmieraufgabe
 Wir bauen einen Zug ... der im Folgenden beschriebene Aufbau und die dazugehörigen Funktionalitäten sollen in Java umgesetzt werden:
 
 • Ein Zug besteht aus einer oder mehreren Lokomotiven und keinem bis mehreren Wagons.
+
 • Lokomotiven und Wagons haben ein fixes Leergewicht.
+
 • Lokomotiven und Wagons haben eine fixe Länge.
 • Die Elemente innerhalb eines Zuges haben eine gewisse Reihenfolge.
 • Jede Lokomotive hat eine bestimmte Zugkraft, diese gibt an wie viel Gewicht die
